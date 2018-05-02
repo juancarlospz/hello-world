@@ -15,6 +15,22 @@
       	    display: inline-block;
       		transition: 0.3px;		
       }  
+		
+      .btnAnim {
+		    padding: 10px 20px;
+		    border-radius: 5px;
+		    border: #D4C31C;
+		    background-color: #4299D4;
+		    color: black;
+		    display: inline-block;
+		    transition: 0.3s;
+      }
+
+      .btnAnim:hover {
+			transform: scale(1.2);
+			letter-spacing: 3px;
+			color: #E36A14;
+      }
   </style>      
 </head>
 <body>
@@ -23,6 +39,12 @@
      Ahjuste desde master local</p>
 
      
-     <button class="anim"><a class="btn" href="https://google.com">Google</a></button>
+     <!-- <button class="btnAnim"><a class="btn" href="https://google.com">Google</a></button> -->
+
+  	<!-- <a class="btnAnim" href="https://google.com">Google</a> -->
+  	<!-- <button class="btnAnim"><a href="https://google.com">Google</a></button> -->
+  	<button class="btnAnim">Google</button>
+
+     <div class="btnAnim">Google Anim</div>
 </body>
 </html>
